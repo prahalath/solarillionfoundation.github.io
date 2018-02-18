@@ -19,7 +19,7 @@ role_groups:
             <!-- <h3>{{ role.key }}</h3><br/> -->
             {% if grp contains role.key %}
                 <h3>{{ role.name }} </h3><br/>
-                <ul class="people ">
+                <ul class="people people_page">
                 {% for item in site.data.people %}
                     {% assign person = item[1] %}
                     {% if person.role == role.key %}

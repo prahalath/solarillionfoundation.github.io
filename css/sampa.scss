@@ -216,7 +216,7 @@ ul.project-people {
 
     ul.grad { @include columns(3); }
     ul.alum { @include columns(2); }
-
+    ul.people_page {@include columns(2);}
 }
 
 @media (max-width: 768px) {
