@@ -42,12 +42,12 @@ navigation:
       link: /
     - title: Research
       link: /research/
+    - title: People
+      link: /people/
     - title: Publications
       link: /publications.html
     - title: Code
       link: /code.html
-    - title: People
-      link: /people/
 
 # Navigation bar links for WACAS.
 nav_wacas:

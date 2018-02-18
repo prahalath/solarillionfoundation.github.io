@@ -10,7 +10,7 @@ ateendra:
     bio: "Coolio"
 
 aashish:
-    display_name: "Aashish Kumar Jain"
+    display_name: "Aashish Jain"
     webpage: "https://aashish-jain.github.io"
     role: fulltime
     github: aashish-jain
@@ -174,259 +174,129 @@ prasanna:
     bio: "Prasanna Balakrishnan in currently in his final year pursuing his Bachelor's degree in Computer Science and Engineering at the College of Engineering,Guindy,Anna University. He is currently in ML team, working on movie prediction. His interests are on Machine Learning and also plans to pursue his masters abroad in the same field in the fall of 2018"
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
-
-armin:
-    display_name: "Armin Alaghi"
-    role: "alum"
-    webpage: "http://homes.cs.washington.edu/~armin/"
-    image: /img/people/armin.jpg
-    bio: "Postdoc, 2015&ndash;2017. Now at Oculus Research."
-jevdjic:
-    display_name: "Djordje Jevdjic"
-    role: "alum"
-    webpage: "http://parsa.epfl.ch/~jevdjic/"
-    bio: "Postdoc, 2015&ndash;2017. Now at Microsoft Research."
-bholt:
-    display_name: "Brandon Holt"
-    webpage: "https://homes.cs.washington.edu/~bholt/"
-    role: "alum"
-    image: /img/people/bholt.jpg
-    bio: "Ph.D., 2016. Now at Apple."
-bdmyers:
-    display_name: "Brandon Myers"
-    webpage: "https://homes.cs.washington.edu/~bdmyers/"
-    role: "alum"
-    image: /img/people/myers.jpg
-    bio: "Ph.D., 2016. Now faculty at Iowa."
-nelson:
-    display_name: "Jacob Nelson"
-    role: "alum"
-    bio: "Ph.D., 2014. Postdoc 2014&ndash;2016. Now at Microsoft Research."
-    image: /img/people/nelson.jpg
-asampson:
-    display_name: "Adrian Sampson"
-    webpage: "http://adriansampson.net/"
-    image: /img/people/adrian.jpg
-    github: sampsyo
+aswinnatesh:
+    display_name: "Aswin Natesh"
     role: alum
-    bio: "Ph.D., 2015. Now faculty at Cornell."
-ransford:
-    display_name: "Ben Ransford"
-    webpage: "http://ben.ransford.org/"
-    github: ransford
-    role: alum
-    bio: "Postdoc, 2013&ndash;2014."
-bpw:
-    display_name: "Benjamin Wood"
-    webpage: "https://homes.cs.washington.edu/~bpw/"
-    role: alum
-    bio: "Ph.D., 2014. Now faculty at Wellesley."
-tbergan:
-    display_name: "Tom Bergan"
-    webpage: "https://homes.cs.washington.edu/~tbergan/"
-    role: alum
-    bio: "Ph.D., 2014. Now at Google."
-miker:
-    display_name: "Michael Ringenburg"
-    webpage: "http://homes.cs.washington.edu/~miker/"
-    role: alum
-    bio: "Ph.D., 2014. Now at Cray."
-lucia:
-    display_name: "Brandon Lucia"
-    webpage: "http://brandonlucia.com/"
-    role: alum
-    bio: "Ph.D., 2013. Now faculty at CMU."
-hadi:
-    display_name: "Hadi Esmaeilzadeh"
-    webpage: "http://www.cc.gatech.edu/~hadi/"
-    role: alum
-    bio: "Ph.D., 2013. Now faculty at UC San Diego."
-devietti:
-    display_name: Joe Devietti
-    webpage: "https://www.cis.upenn.edu/~devietti/"
-    role: alum
-    bio: "Ph.D., 2012. Now faculty at UPenn."
-katelin:
-    display_name: "Katelin Bailey"
-    webpage: "https://homes.cs.washington.edu/~katelin/"
-    role: alum
-    bio: "M.S., 2015. Now at Microsoft."
-andreolb:
-    display_name: "Andre Baixo"
-    role: alum
-    bio: "M.S., 2015. Now at ARM."
-emackay:
-    display_name: Eric Mackay
-    webpage: "http://homes.cs.washington.edu/~emackay/"
-    role: alum
-    bio: "M.S., 2015. Now at Amazon."
-cody:
-    display_name: Cody Schroeder
-    role: alum
-    bio: "B.S. 2012, M.S. 2013. Now at Google."
-fortuna:
-    display_name: Emily Fortuna
-    role: alum
-    bio: "M.S., 2011. Now at Google."
-hunt:
-    display_name: "Nick Hunt"
-    role: alum
-    bio: "Now guiding at RMI."
-owen:
-    display_name: Owen Anderson
-    role: alum
-    bio: M.S., 2010. Now at Apple.
-bboston:
-    display_name: Brett Boston
-    webpage: "http://people.csail.mit.edu/boston/"
-    role: alum
-    bio: "B.S., 2015. Now at MIT."
-yorkw:
-    display_name: York Wei
-    role: alum
-    bio: "B.S., 2015. Now at VMWare."
-kristian:
-    display_name: Kristian Lieberg
-    role: alum
-    bio: "B.S., 2011. Now at Clean Power Research."
-angda:
-    display_name: Angda (Andy) Chen
-    role: alum
-    bio: B.S., 2008. Now at Amazon.
+    image: /img/people/aswinnatesh.png
 
 
-# Undergrads
-# Alphabetical order
+gandhi:
+    display_name: "Gandhi Rajan"
+    role: alum
+    image: /img/people/gandhi.png
 
 
-# Undergrad Alums
-# Alphabetical order
+gosakan:
+    display_name: "Gosakan Srinivasan"
+    role: alum
+    image: /img/people/gosakan.png
 
-austina2:
-    display_name: Austin Arechiga
-    role: ugrad-alum
-faugusto:
-    display_name: Felipe Augusto
-    role: ugrad-alum
-eblajev:
-    display_name: Evan Blajev
-    role: ugrad-alum
-schowdury:
-    display_name: Sandeep Chowdary
-    role: ugrad-alum
-wenjih:
-    display_name: Wenjie (Marissa) He
-    role: ugrad-alum
-phowe:
-    display_name: Patrick Howe
-    role: ugrad-alum
-umaymah:
-    display_name: Umaymah Khan
-    role: ugrad-alum
-jkotalik:
-    display_name: Justin Kotalik
-    role: ugrad-alum
-    webpage: https://www.linkedin.com/in/justin-kotalik-0489b597
-veilam:
-    display_name: Wei Lin
-    role: ugrad-alum
-tliu24:
-    display_name: Tianchi Liu
-    role: ugrad-alum
-luluyi:
-    display_name: Luyi Lu
-    role: ugrad-alum
-artem:
-    display_name: Artem Minyaylov
-    role: ugrad-alum
-wyatt:
-    display_name: Wyatt Muntean
-    role: ugrad-alum
-djnoboom:
-    display_name: Daniel Noteboom
-    role: ugrad-alum
-codyohl:
-    display_name: Cody Ohlsen
-    role: ugrad-alum
-    image: /img/people/codyohl.jpg
-    webpage: http://www.linkedin.com/in/codyohlsen
-pshfls:
-    display_name: Sui Pang (Beck)
-    role: ugrad-alum
-    webpage: http://www.linkedin.com/in/beckpang
-shichengfeng:
-    display_name: Chengfeng Shi
-    role: ugrad-alum
-zbsimon:
-    display_name: Zach Simon
-    role: ugrad-alum
-xinyu:
-    display_name: Xinyu Sui
-    role: ugrad-alum
-chenfs:
-    display_name: Chenfan (Frank) Sun
-    role: ugrad-alum
-    webpage: https://www.linkedin.com/in/chenfansun
-mandary:
-    display_name: Yufang Sun
-    role: ugrad-alum
-joshuay:
-    display_name: Joshua Yip
-    role: ugrad-alum
+meghana:
+    display_name: "Meghana"
+    role: alum
+    image: /img/people/meghana.png
+
+balasubramanian:
+    display_name: "Balasubramanian T"
+    role: alum
+    image: /img/people/bala.png
+
+rohan:
+    display_name: "Rohan Ganpati"
+    role: alum
+    image: /img/people/rohan.png
+
+sivaroophini:
+    display_name: "Sivaroophini"
+    role: alum
+    image: /img/people/sivaroophini.png
+
+vetrivel:
+    display_name: "Vetrivel"
+    role: alum
+    image: /img/people/vetri.png
+
+
+harini:
+    display_name: "Harini Sekhar"
+    role: alum
+    image: /img/people/harini.png
+
+rajasekhar:
+    display_name: "Rajasekhar Rajagopalan"
+    role: alum
+    image: /img/people/rajasekhar.png
+
+chandirasekarendiran:
+    display_name: "Chandirasekarendiran Anandan"
+    role: alum
+    image: /img/people/chandirasekarendiran.png
+
+farhan:
+    display_name: "Farhan Faisal"
+    role: alum
+    image: /img/people/farhan.png
+
+priyanka:
+    display_name: "Priyanka Suresh"
+    role: alum
+    image: /img/people/priyanka.png
+
+rishikanth:
+    display_name: "Rishikanth Chandrasekaran"
+    role: alum
+    image: /img/people/rishikanth.png
+
+anand:
+    display_name: "Anand Vignesh"
+    role: alum
+    image: /img/people/anand.png
+
+akshaya:
+    display_name: "Akshaya Ravishankar"
+    role: alum
+    image: /img/people/akshaya.png
+
+arjun:
+    display_name: "Arjun Subramanian Ganesan"
+    role: alum
+    image: /img/people/arjun.png
+
+bhargavi:
+    display_name: "Bhargavi Govindarajan"
+    role: alum
+    image: /img/people/bhargavi.png
+
+rajesh:
+    display_name: "Rajesh Ramesh"
+    role: alum
+    image: /img/people/rajesh.png
+
+vikram:
+    display_name: "Vikram Vel"
+    role: alum
+    image: /img/people/vikram.png
+
+dhiwaakar:
+    display_name: "Dhiwaakar Purusothaman S R R"
+    role: alum
+    image: /img/people/dhiwaakar.png
+
+karan:
+    display_name: "Karan K Bajaj"
+    role: alum
+    image: /img/people/karan.png
+
+sabari:
+    display_name: "Sabari Girish Vijayakumar"
+    role: alum
+    image: /img/people/sabari.png
+
+
 
 # Collaborators
 # Alphabetical order
 
-preston:
-    display_name: Preston Briggs
-    role: collab
-
-akcheung:
-    display_name: "Alvin Cheung"
-    role: collab
-    webpage: "https://homes.cs.washington.edu/~akcheung/"
-    bio: "Assistant Professor, UW CSE"
-    image: /img/people/akcheung.png
-delorimier:
-     display_name: Michael Delorimier
-     role: collab
-     bio: "Oracle Labs"
-farhadi:
-     display_name: Ali Farhadi
-     role: collab
-     webpage: https://homes.cs.washington.edu/~ali/
-     bio: "Assistant Professor, UW CSE"
-shri:
-     display_name: Shri Hariharasubrahmanian
-     role: collab
-     bio: "Oracle Labs"
-sungpack:
-     display_name: Sungpack Hong
-     role: collab
-     bio: "Oracle Labs"
-skahan:
-    display_name: Simon Kahan
-    role: collab
-visvesh:
-    display_name: Visvesh Sathe
-    role: collab
-    webpage: http://www.ee.washington.edu/people/visvesh-sathe/
-    bio: "Assistant Professor, UW EE"
-
 
 # No role (only for retired project photos)
 
-billhowe:
-    display_name: "Bill Howe"
-    webpage: "http://homes.cs.washington.edu/~billhowe/"
-    image: /img/people/billhowe.jpg
-    bio: "Affiliate Faculty and Associate Director of eScience Institute"
-drkp:
-    display_name: "Dan Ports"
-    webpage: "http://drkp.net/"
-    image: /img/people/drkp.jpg
-    bio: "Research Assistant Professor"
-iyzhang:
-    display_name: "Irene Zhang"
-    webpage: http://irenezhang.net/
-    image: /img/people/iyzhang.jpg
