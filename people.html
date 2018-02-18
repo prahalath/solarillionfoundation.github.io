@@ -1,14 +1,15 @@
 ---
 layout: default
+permalink: /people/
 title: People
 ---
 
 <p>Some of the group in action (apparently Mark, Karin, Jacob, Vincent, Carlo were off doing real work).</p>
 
-<div class="inset-image">
+<!-- <div class="inset-image">
     <img src="{{ site.base }}/img/sampayak.jpg" alt="Sampa-yak"
     class="img-responsive img-rounded">
-</div>
+</div> -->
 
 {% for role in site.roles %}
   <h3>{{ role.name }}</h3>
@@ -16,6 +17,8 @@ title: People
   {% for item in site.data.people %}
     {% assign person = item[1] %}
     {% if person.role == role.key %}
+    
+    <div id = "{{item[0]}}">
       <dt class="person">
         {% if person.webpage %}
         <a href="{{ person.webpage |escape }}">
@@ -30,6 +33,7 @@ title: People
           {{ person.bio | markdownify }}
         {% endif %}
       </dd>
+    </div>
     {% endif %}
   {% endfor %}
   </dl>

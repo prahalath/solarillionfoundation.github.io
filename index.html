@@ -6,7 +6,7 @@ notitle: true
 role_groups:
     - [faculty, postdoc, staff]
     - [grad]
-
+    - [student]
 role_remain:
     - [collab, ugrad, ugrad-alum]
     - [alum]
@@ -15,7 +15,7 @@ role_remain:
 
 <div class="jumbotron">
   <p align="justify">
-      <b>Solarillion Foundation</b> Solarillion Foundation is a not-for-profit research, outreach and 
+      <center><b>Solarillion Foundation</b></center><br/> Solarillion Foundation is a not-for-profit research, outreach and 
       education organization working with research institutions, government agencies and organizations 
       to carry out research on policy, technology and related areas in the field of Machine Learning, 
       Internet of Things, Embedded Systems, renewable energy, and sustainable engineering.
@@ -87,16 +87,18 @@ role_remain:
 
 <div class="row">
 {% for grp in page.role_groups %}
+    <!-- <h3>{{ grp }}</h3><br/> -->
     <div class="col-md-12">
         {% for role in site.roles %}
+        <!-- <h3>{{ role.key }}</h3><br/> -->
         {% if grp contains role.key %}
-            <h3>{{ role.name }}</h3>
+            <h3>{{ role.name }} </h3>
             <ul class="people {{ role.key }}">
             {% for item in site.data.people %}
                 {% assign person = item[1] %}
                 {% if person.role == role.key %}
                 <li>
-                    {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
+                    {% if person.webpage %}<a href="{{ site.url }}/people.html/#{{item[0]}}">{% endif %}
                     {% assign imgurl = false %}
                     {% if person.image %}
                         {% capture init %}{{ person.image | slice: 0,2 }}{% endcapture %}
@@ -114,10 +116,10 @@ role_remain:
                     {% endif %}
                     {% if person.webpage %}</a>{% endif %}
                     <div class="person">
-                    {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
+                    {% if person.webpage %}<a href="{{ site.url }}/people#{{item[0]}}">{% endif %}
                     <h4>{{person.display_name}}</h4>
                     {% if person.webpage %}</a>{% endif %}
-                    {% if person.bio %}<p align="justify" class="bio">{{person.bio}}</p>{% endif %}
+                    <!-- {% if person.bio %}<p align="justify" class="bio">{{person.bio}}</p>{% endif %} -->
                     </div>
                 </li>
                 {% endif %}
