@@ -11,8 +11,8 @@ role_remain:
 ---
 
 <div class="jumbotron">
-  <p align="justify">
-      <center><b>Solarillion Foundation</b></center><br/> Solarillion Foundation is a not-for-profit research, outreach and 
+      <center><b>Solarillion Foundation</b></center>
+      <p align="justify">Solarillion Foundation is a not-for-profit research, outreach and 
       education organization working with research institutions, government agencies and organizations 
       to carry out research on policy, technology and related areas in the field of Machine Learning, 
       Internet of Things, Embedded Systems, renewable energy, and sustainable engineering.
@@ -85,7 +85,7 @@ role_remain:
 <div class="row">
 {% for grp in page.role_groups %}
     <!-- <h3>{{ grp }}</h3><br/> -->
-    <div class="col-md-12">
+    <div class="col-md-{% if grp contains 'ugra' %}8{% else %}4{% endif %}">     
         {% for role in site.roles %}
         <!-- <h3>{{ role.key }}</h3><br/> -->
         {% if grp contains role.key %}
