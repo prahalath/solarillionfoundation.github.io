@@ -18,7 +18,7 @@ role_groups:
             {% for role in site.roles %}
             <!-- <h3>{{ role.key }}</h3><br/> -->
             {% if grp contains role.key %}
-                <h3>{{ role.name }} </h3>
+                <h3>{{ role.name }} </h3><br/>
                 <ul class="people ">
                 {% for item in site.data.people %}
                     {% assign person = item[1] %}
@@ -48,6 +48,7 @@ role_groups:
                         {% if person.bio %}<p align="justify" class="bio">{{person.bio}}</p>{% endif %}
                         </div>
                     </li>
+                    <br/>
                     </div>
                     {% endif %}
                 {% endfor %}
