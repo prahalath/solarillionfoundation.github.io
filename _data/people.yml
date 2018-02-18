@@ -15,12 +15,12 @@ ateendra:
     bio: "Coolio"
 
 aashish:
-    display_name: "Aashish Jain"
+    display_name: "Aashish Kumar Jain"
     webpage: "https://aashish-jain.github.io"
     role: fulltime
     github: aashish-jain
     image: /img/people/aashish.png
-    bio: "Awesome"
+    bio: "Aashish holds an undergraduate degree in Electrical and Electronics Engineering from Velammal Engineering College, Anna University. He is part of Machine Learning group and currently working on Realtime Movies Occupancy Prediction. He recently presented his research work 'Peak based Device Classification for NILM on a Low-Cost Embedded Platform using Extra-Trees' at Massachusetts Institute of Technology URTC 2017, MA, USA. His areas of interest include IoT, Machine Learning, Algorithms and Embedded Systems. He aspires to do Masters abroad in his areas of interests in Fall 18 followed by a Ph.D."
 
 gautham:
     display_name: "Gautham Krishna G"
@@ -126,10 +126,7 @@ nitish:
     display_name: "Nitish Moudhgalya"
     role: ugra
     image: /img/people/nitish.png
-    bio: "Nithish is a 3rd Year Undergraduate student, pursuing Computer Science and Engineering at SSN College of Engineering,
-Anna University, Chennai. He is currently a part of an ML team which is working in collaboration with one of the top multiplexes
-to predict food sale and model user behaviour, at Solarillion Foundation. His areas of interest are Machine Learning, Artificial
-Intelligence, Neuro-Science, Robotics and Algorithms. He intends to pursue his Masters abroad by the fall of 2019."
+    bio: "Nithish is a 3rd Year Undergraduate student, pursuing Computer Science and Engineering at SSN College of Engineering, Anna University, Chennai. He is currently a part of an ML team which is working in collaboration with one of the top multiplexes to predict food sale and model user behaviour, at Solarillion Foundation. His areas of interest are Machine Learning, Artificial Intelligence, Neuro-Science, Robotics and Algorithms. He intends to pursue his Masters abroad by the fall of 2019."
 
 nidhi:
     display_name: "R Nidhi Bhandari"
