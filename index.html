@@ -82,6 +82,26 @@ role_remain:
 
 <h2>People</h2>
 <!-- <h2>{{site.url }}</h2> -->
+
+    <div class="col-md-16">
+            <h3>Director - Research and Outreach </h3>
+            <ul class="people faculty">
+                        <li>
+                            <a href="{{ site.url }}/dir/">
+                                {% if imgurl %}
+                                <img class="img-circle profile" src="/img/people/Vineeth-Vijayaraghavan.png" />
+                            {% else %}
+                                <svg class="profile"><circle class="noprofile" /></svg>
+                            {% endif %}
+                            </a>
+                            <div class="person">
+                            <a href="{{ site.url }}/dir/">
+                            <h4>Vineeth Vijayaraghavan</h4>
+                            </a>
+                            </div>
+                        </li>
+        
+    </div>
 <div class="row">
 {% for grp in page.role_groups %}
     <!-- <h3>{{ grp }}</h3><br/> -->
