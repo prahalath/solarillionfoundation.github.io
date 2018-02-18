@@ -15,7 +15,7 @@ aashish:
     role: fulltime
     github: aashish-jain
     image: /img/people/aashish.png
-    bio: ""
+    bio: "Awesome"
 
 gautham:
     display_name: "Gautham Krishna G"
@@ -23,32 +23,32 @@ gautham:
     role: fulltime
     github: aashish-jain
     image: /img/people/gautham.png
-    bio: ""
+    bio: "Gautham holds a Bachelor's degree in Information Technology from Sri Sivasubramaniya Nadar College of Engineering, Anna University, Chennai. He is currently a part of the Activity Recognition and Movie Occupancy Prediction research groups. His previous research work titled \"A Generic Multi-modal Dynamic Gesture Recognition System using Machine Learning\" has been accepted at the IEEE Future of Information and Commination Conference (FICC) 2018 to be held at Singapore. His current areas of interest include Data Science, Deep Learning, IoT and Algorithms. He intends to pursue his Master's in the fall of 2018."
 
 prahalathan:
     display_name: "Prahalathan Sundaramoorthy"
     role: fulltime
     github: prahalath
     image: /img/people/prahalathan.png
-    bio: ""
+    bio: "He holds a Bachelor’s degree in Electrical and Electronics Engineering from Anna University, Chennai. His research interests include Smart Devices, Machine Learning and Embedded Systems. His paper titled \"Current peak based device classification in NILM on a low-cost embedded platform using extra-trees\", on developing a low-cost system for Non-Intrusive Load Monitoring using machine learning was accepted and presented at the 2017 IEEE MIT Undergraduate Research Technology Conference (URTC), Cambridge MA, USA. Currently, he is working on developing a robust Human Activity Recognition (HAR) system using deep learning. He intends to pursue his Master's in the fall of 2018."
 
 sriharsha:
     display_name: "Sriharsha Uppu"
     role: fulltime
     image: /img/people/sriharsha.png
-    bio: ""
+    bio: "Sriharsha has completed his undergraduate in Electronics and Communication Engineering from Rajalakshmi Engineering College, Anna University. His research interests include machine learning, embedded systems and IoT. He is currently part of the machine learning group at Solarillon foundation and is currently working on a food sale prediction model for a top 3 multiplex chain in the country. He plans on pursuing his Master's in Electrical and Computer Engineering in the fall of 2018"
 
 vijay:
     display_name: "Vijay Kumar Shankar"
     role: fulltime
     image: /img/people/vijay.png
-    bio: ""
+    bio: "Vijay holds a bachelor’s degree in  Electronics & Communication Engineering from Rajalakshmi Engineering College, Anna University, Chennai. His research interests include Embedded systems, Renewable energy and Microgrids. He is currently part of Microgrids research group working on developing low cost solutions and design optimization. He presented his work on microgrids at the IEEE Texas Power and Energy Conference 2018 held at Texas A&M university, College station, Texas ,USA. He aspires to pursue his graduate studies in Electrical and Computer Engineering commencing fall 18."
 
 yogesh:
     display_name: "Yogesh Kumar B"
     role: fulltime
     image: /img/people/yogesh.png
-    bio: ""
+    bio: "Yogesh holds a bachelor’s degree in  Electronics and Communication  Engineering from Velammal Engineering College, Anna University. He is currently part of the embedded /IOT group working on gesture recognition. His previous research work in gesture recognition and machine learning  has been accepted at the IEEE FICC to be held at Singapore , 2018.  His research interests include Embedded Systems, IoT Devices, and machine learning.  He intends to pursue his Masters at the University of waterloo in fall 2018."
 
 # Staff
 # Alphabetical order
@@ -64,87 +64,103 @@ dinesh:
     display_name: "Dinesh Sreekanthan"
     role: ugra
     image: /img/people/dinesh.png
+    bio: "Dinesh is a 4th year Undergraduate Student, pursuing Computer Science and Engineering at SRM University, Kattankulathur. His areas of research interests include Data Science, Machine Learning and Natural Language Processing. He presented his work on machine learning at the IEEE Digital Avionics Systems Conference 2017 at St. Petersburg, FL, USA. He intends to pursue his Master’s in Computer Science abroad in Fall 2018."
 
 syed:
     display_name: "Syed Shahbaaz Ahmed"
     role: ugra
     image: /img/people/syed.png
+    bio: "Awesome"
 
 adithya:
     display_name: "Adithya Ganesan V"
     role: ugra
     image: /img/people/adithya.png
+    bio: "Adithya Ganesan V is a 3rd year undergraduate student currently pursuing bachelor's in computer science and engineering in Sri Sivasubramaniya Nadar College Of Engineering, Anna University, Chennai. His previous work in Activity Recognition has been accepted for the Future of Information and Communication Conference to be held in Singapore in April 2018. He is currently a part of an ML team which is working in collaboration with one of the top multiplexes to predict the food sale and model user behaviour. His areas of interest include Machine Learning, Data Science, IoT and algorithms. He plans to do his masters commencing fall 2019."
 
 shashank:
     display_name: "Shashank Karrthikeyaa Annadanam Subbarathinam"
     role: ugra
     image: /img/people/shashank.png
+    bio: "B.E.- IIIrd Year ECE- SSN College of Engineering.Interested in : Digital Signal Processing and Machine Learning. Joined: June 2017. Master’s Interest: Electrical & Computer Engineering"
 
 raghav:
     display_name: "Raghavendiran Thiruvengadam"
     role: ugra
     image: /img/people/raghav.png
+    bio: "Awesome"
 
 prithvi:
     display_name: "Prithvi Suresh"
     role: ugra
     image: /img/people/prithvi.png
+    bio: "Prithvi is a 2nd year undergraduate student, pursuing Electronics and Communication Engineering at SRM University, Kattankulathur. His areas of research interests include embedded systems/IoT and Machine Learning. He is currently a part of the IoT and Embedded Systems research group. He intends to pursue his Master’s abroad in the fall of 2020."
 
 aswin:
     display_name: "Aswin Gopikanna"
     role: ugra
     image: /img/people/aswin.png
+    bio: "Aswin Gopikanna is a 3rd-year undergraduate student pursuing his Bachelors in Electrical and Electronics Engineering at Rajalakshmi Engineering College. His areas of research include the development of low-cost solutions in the fields of renewable energy and microgrids. His current research work deals with microgrid clusters. His previous research work on rural Indian Microgrid has been published at the IEEE Texas Power and Energy Conference (TPEC) 2018, held at Texas A&M University, TX. He intends to pursue his Master’s in the fall of 2019."
 
 sai:
     display_name: "Sai Shankar M"
     role: ugra
     image: /img/people/sai.png
+    bio: "Sai Shankar is a final year undergraduate student pursuing is bachelor’s degree in Electrical and Electronics Engineering at Rajalakshmi Engineering College. His areas of interest include Renewable energy and Micro-grids. He is currently a part of the Smart Energy group working on designing low cost and optimized micro-grids. He has recently published a paper on micro-grids at the IEEE Texas Power and Energy Conference 2018 held at Texas A&M university, Texas. He intends to pursue his Masters abroad in Electrical engineering in the fall of 2019."
 
 gokul:
     display_name: "Gokul Hari"
     role: ugra
     image: /img/people/gokul.png
+    bio: "Gokul is a 3rd year undergraduate pursuing his Bachelors degree in Electrical and Electronics Engineering at SSN College of Engineering, Kalvakkam. His current research is on Gesture Recognition Glove. His research interests include Embedded systems and IOT . He intends to pursue his Master's in the fall of 20."
 
 lakshmi:
     display_name: "Lakshminarishman Srinivasan"
     role: ugra
     image: /img/people/lakshmi.png
+    bio: "Awesome"
 
 sundar:
     display_name: "Sundararaman Venkataramani"
     role: ugra
     image: /img/people/sundar.png
+    bio: "Sundararaman is a 3rd Year Undergraduate Student pursuing Computer Science Engineering at Sri Sivasubramaniya Nadar College of Engineering, Anna University, Chennai. His areas of research include IoT, Machine Learning and Algorithms. He is a part of Machine Learning group at Sollarillion Foundation currently working in movie occupancy prediction. Also he will be interning at Goldman Sachs in summer of 2018."
 
 nitish:
     display_name: "Nitish Moudhgalya"
     role: ugra
     image: /img/people/nitish.png
+    bio: "Nithish Moudhgalya is a 3 rd year CSE student at SSN College of Engineering. Working with the ML team that is working in collaboration with one of the multiplexes in modelling user behavior and hence predict the food sales at Solarillion Foundation. Interests: Artificial Intelligence and Machine Learning, Cognitive Neuroscience, Quantum and AstroPhysics. Would pursue masters by the fall of 2019."
 
 nidhi:
     display_name: "R Nidhi Bhandari"
     role: ugra
     image: /img/people/nidhi.png
+    bio: "Nidhi is a 3rd year undergraduate student pursuing Computer Science Engineering at Sri Sivasubramaniya Nadar College of Engineering, Anna University, Chennai.  Her primary area of interest is Machine Learning. She is currently a part of the Human Activity Recognition(HAR) team."
 
 siddharth:
     display_name: "Siddharth Divi"
     role: ugra
     image: /img/people/siddharth.png
+    bio: "Siddharth is a 3rd Year Undergraduate student, pursuing Computer Science and Engineering at SSN College of Engineering, Anna University, Chennai. He is currently a part of an ML team which is working in collaboration with one of the top multiplexes to predict food sale and model user behaviour, at Solarillion Foundation. His areas of interest are Machine Learning, Data Analytics and Algorithms. He intends to pursue his Masters abroad by the fall of 2019."
 
 abishek:
     display_name: "Abishek Sridhar"
     role: ugra
     image: /img/people/abishek.png
+    bio: "I am a final year undergraduate student currently pursuing my Bachelor's in Electrical and Electronics Engineering at Easwari Engineering College, Anna University. I am a part of the smart energy group and my current research work deals with Microgrid Cluster for rural Indian scenario. My areas of interest include Embedded systems,Renewable Energy and Microgrids. I plan to do my masters by the fall of 2019.  "
 
 sharan:
     display_name: "Sharan Sundar"
     role: ugra
     image: /img/people/sharan.png
+    bio: "Sharan is a 3rd Year Bachelor of Computer Science and Engineering student studying at SSN College of Engineering. He is a part of Machine Learning group at Sollarillion Foundation currently working on Occupancy Prediction. His areas include IoT, Machine Learning and Algorithms. He plans to do his Masters in the fall of 19."
 
 manav:
     display_name: "Manav Rajiv Moorthy"
     role: ugra
     image: /img/people/manav.png
-
+    bio: "Manav is a 3rd Year Undergraduate Student pursuing Computer Science and Engineering at Sri Sivasubramaniya Nadar College of Engineering, Anna University, Chennai. His areas of research include Deep Learning and Computer Vision. He is a part of IoT & DL research group at Sollarillion Foundation. He plans to do his masters by the fall of 2019."
     
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year

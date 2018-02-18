@@ -30,7 +30,9 @@ title: People
       </dt>
       <dd>
         {% if person.bio %}
+        <p align="justify">
           {{ person.bio | markdownify }}
+        </p>
         {% endif %}
       </dd>
     </div>
