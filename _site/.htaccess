@@ -5,7 +5,7 @@ RewriteBase /
 
 
 
-RewriteRule ^sampa/People /people.html [L,R=301]
+RewriteRule ^sampa/People /people/ [L,R=301]
 
 
 
