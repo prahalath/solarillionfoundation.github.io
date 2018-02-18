@@ -82,7 +82,7 @@ shashank:
     display_name: "Shashank Karrthikeyaa Annadanam Subbarathinam"
     role: ugra
     image: /img/people/shashank.png
-    bio: "B.E.- IIIrd Year ECE- SSN College of Engineering.Interested in : Digital Signal Processing and Machine Learning. Joined: June 2017. Master’s Interest: Electrical & Computer Engineering"
+    bio: "Shashank is currently pursuing his 3rd year bachelor’s in SSN College of Engineering. His areas of interest include Signal Processing, IOT and Machine Learning. He is a part of Load Prediction group. He plans to do his masters in the fall of 2019."
 
 raghav:
     display_name: "Raghavendiran Thiruvengadam"
@@ -108,7 +108,8 @@ lakshmi:
     display_name: "Lakshminarishman Srinivasan"
     role: ugra
     image: /img/people/lakshmi.png
-    bio: "Awesome"
+    bio: "Lakshminarasimhan is a 4th year undergraduate student pursuing Computer Science and Engineering at SRM University, Kattankulathur. His areas of research interests include machine learning and natural language processing. His current research work deals with Neural Machine Translation. His previous research work dealing with prediction of flight delays has been published at the IEEE/AIAA 36th Digital Avionics Systems Conference (DASC) 2017, held in St.Petersburg, Florida. He intends to pursue his Master’s ab
+road in Fall 2018."
 
 sundar:
     display_name: "Sundararaman Venkataramani"
@@ -120,7 +121,10 @@ nitish:
     display_name: "Nitish Moudhgalya"
     role: ugra
     image: /img/people/nitish.png
-    bio: "Nithish Moudhgalya is a 3 rd year CSE student at SSN College of Engineering. Working with the ML team that is working in collaboration with one of the multiplexes in modelling user behavior and hence predict the food sales at Solarillion Foundation. Interests: Artificial Intelligence and Machine Learning, Cognitive Neuroscience, Quantum and AstroPhysics. Would pursue masters by the fall of 2019."
+    bio: "Nithish is a 3rd Year Undergraduate student, pursuing Computer Science and Engineering at SSN College of Engineering,
+Anna University, Chennai. He is currently a part of an ML team which is working in collaboration with one of the top multiplexes
+to predict food sale and model user behaviour, at Solarillion Foundation. His areas of interest are Machine Learning, Artificial
+Intelligence, Neuro-Science, Robotics and Algorithms. He intends to pursue his Masters abroad by the fall of 2019."
 
 nidhi:
     display_name: "R Nidhi Bhandari"

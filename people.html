@@ -2,38 +2,76 @@
 layout: default
 permalink: /people/
 title: People
+role_groups:
+    - [fulltime, ugra, ugpa, alum ]
 ---
-
-<p>Some of the group in action (apparently Mark, Karin, Jacob, Vincent, Carlo were off doing real work).</p>
 
 <!-- <div class="inset-image">
     <img src="{{ site.base }}/img/sampayak.jpg" alt="Sampa-yak"
     class="img-responsive img-rounded">
 </div> -->
+<div class="row">
+    {% for grp in page.role_groups %}
+        <!-- <h3>{{ grp }}</h3><br/> -->
+        <div class="col-md-12">
+        <!-- >{% if grp contains 'ugra' %}8{% else %}4{% endif %}">      -->
+            {% for role in site.roles %}
+            <!-- <h3>{{ role.key }}</h3><br/> -->
+            {% if grp contains role.key %}
+                <h3>{{ role.name }} </h3>
+                <ul class="people ">
+                {% for item in site.data.people %}
+                    {% assign person = item[1] %}
+                    {% if person.role == role.key %}
+                    <div id = "{{item[0]}}">
+                    <li>
+                        <!-- {% if person.webpage %}<a href="{{person.webpage}}">{% endif %} -->
+                        {% assign imgurl = false %}
+                        {% if person.image %}
+                            {% capture init %}{{ person.image | slice: 0,2 }}{% endcapture %}
+                            {% if init == "//" %}
+                                {% assign imgurl = person.image %}
+                            {% else %}
+                                {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
+                            {% endif %}
+                        {% endif %}
+                        <a href="{{site.url}}/people#{{item[0]}}">
+                        {% if imgurl %}
+                            <img class="img-circle profile" src="{{imgurl}}" />
+                        {% else %}
+                            <svg class="profile"><circle class="noprofile" /></svg>
+                        {% endif %}
+                        </a>
+                        <div class="person">
+                            {% if person.webpage %} 
+                              {% assign website_url= person.webpage%}
+                            {% else %}
+                              {% assign website_url= site.url/people#item[0] %}
+                            {% endif %}
+                            <a href="{{wesite_url}}">
+                        <h4>{{person.display_name}}</h4>
+                        </a>
+                        {% if person.bio %}<p align="justify" class="bio">{{person.bio}}</p>{% endif %}
+                        </div>
+                    </li>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+                </ul>
+            {% endif %}
+            {% endfor %}
+        </div>
+    {% endfor %}
+    </div>
+    
 
+<!-- <div class="col-md-12">
 {% for role in site.roles %}
   <h3>{{ role.name }}</h3>
   <dl class="people">
   {% for item in site.data.people %}
     {% assign person = item[1] %}
     {% if person.role == role.key %}
-    {% assign imgurl = false %}
-    {% if person.image %}
-        {% capture init %}{{ person.image | slice: 0,2 }}{% endcapture %}
-        {% if init == "//" %}
-            {% assign imgurl = person.image %}
-        {% else %}
-            {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
-        {% endif %}
-    {% endif %}
-    <a href="{{ site.url }}/people#{{item[0]}}">
-    {% if imgurl %}
-        <img class="img-circle profile" src="{{imgurl}}" />
-    {% else %}
-        <svg class="profile"><circle class="noprofile" /></svg>
-    {% endif %}
-    </a>
-
     <div id = "{{item[0]}}">
       <dt class="person">
         {% if person.webpage %}
@@ -45,6 +83,23 @@ title: People
         {% endif %}
       </dt>
       <dd>
+          {% assign imgurl = false %}
+          {% if person.image %}
+              {% capture init %}{{ person.image | slice: 0,2 }}{% endcapture %}
+              {% if init == "//" %}
+                  {% assign imgurl = person.image %}
+              {% else %}
+                  {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
+              {% endif %}
+          {% endif %}
+          <a href="{{ site.url }}/people#{{item[0]}}">
+          {% if imgurl %}
+              <img class="img-circle profile inset-image" src="{{imgurl}}" />
+          {% else %}
+              <svg class="profile"><circle class="noprofile" /></svg>
+          {% endif %}
+          </a>
+
         {% if person.bio %}
         <p align="justify">
           {{ person.bio | markdownify }}
@@ -56,3 +111,4 @@ title: People
   {% endfor %}
   </dl>
 {% endfor %}
+</div> -->
