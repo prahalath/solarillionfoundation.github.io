@@ -4,14 +4,14 @@ title: Home
 notitle: true
 
 role_groups:
-    - [fulltime, ugra, ugpa, alum]
+    - [fulltime, ugra, ugpa ]
 role_remain:
-    - [collab, ugrad, ugrad-alum]
+    - [alum]
 
 ---
 
 <div class="jumbotron">
-      <center><b>Solarillion Foundation</b></center>
+      <h4><center><b>Solarillion Foundation</b></center></h4>
       <p align="justify">Solarillion Foundation is a not-for-profit research, outreach and 
       education organization working with research institutions, government agencies and organizations 
       to carry out research on policy, technology and related areas in the field of Machine Learning, 
@@ -85,18 +85,18 @@ role_remain:
 <div class="row">
 {% for grp in page.role_groups %}
     <!-- <h3>{{ grp }}</h3><br/> -->
-    <div class="col-md-{% if grp contains 'ugra' %}8{% else %}4{% endif %}">     
+    <div class="col-md-16">
+    <!-- >{% if grp contains 'ugra' %}8{% else %}4{% endif %}">      -->
         {% for role in site.roles %}
         <!-- <h3>{{ role.key }}</h3><br/> -->
         {% if grp contains role.key %}
             <h3>{{ role.name }} </h3>
-            <ul class="people {{ role.key }}">
+            <ul class="people grad">
             {% for item in site.data.people %}
                 {% assign person = item[1] %}
                 {% if person.role == role.key %}
                 <li>
-
-                    {% if person.webpage %}<a href="{{ site.url }}/people#{{item[0]}}">{% endif %}
+                    <!-- {% if person.webpage %}<a href="{{ site.url }}/people#{{item[0]}}">{% endif %} -->
                     {% assign imgurl = false %}
                     {% if person.image %}
                         {% capture init %}{{ person.image | slice: 0,2 }}{% endcapture %}
@@ -106,17 +106,17 @@ role_remain:
                             {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
                         {% endif %}
                     {% endif %}
-                    
+                    <a href="{{ site.url }}/people#{{item[0]}}">
                     {% if imgurl %}
                         <img class="img-circle profile" src="{{imgurl}}" />
                     {% else %}
                         <svg class="profile"><circle class="noprofile" /></svg>
                     {% endif %}
-                    {% if person.webpage %}</a>{% endif %}
+                    </a>
                     <div class="person">
                     <a href="{{ site.url }}/people#{{item[0]}}">
                     <h4>{{person.display_name}}</h4>
-                    {% if person.webpage %}</a>{% endif %}
+                    </a>
                     <!-- {% if person.bio %}<p align="justify" class="bio">{{person.bio}}</p>{% endif %} -->
                     </div>
                 </li>
@@ -132,7 +132,7 @@ role_remain:
 <!--Remaining roles (collaborators, undergrads, alumni) -->
 <div class="row">
 {% for grp in page.role_remain %}
-    <div class="col-md-{% if grp contains "alum" %}7{% else %}5{% endif %}">
+    <div class="col-md-12">
         {% for role in site.roles %}
         {% if grp contains role.key %}
             {% assign has_members = false %}
@@ -161,10 +161,3 @@ role_remain:
     </div>
 {% endfor %}
 </div>
-
-
-<h2>Funding</h2>
-<p>
-Our work is supported by the National Science Foundation, the state of
-Washington, the C-FAR Center for Future Architectures, DARPA, and generous gifts from Microsoft, Intel, Google, Qualcomm and NetApp.
-</p>

@@ -138,6 +138,11 @@ ul.project-people {
     column-count: 3; }
 
   ul.grad {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3; }
+
+  ul.alum {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2; } }

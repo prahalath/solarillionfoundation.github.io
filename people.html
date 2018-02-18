@@ -17,7 +17,23 @@ title: People
   {% for item in site.data.people %}
     {% assign person = item[1] %}
     {% if person.role == role.key %}
-    
+    {% assign imgurl = false %}
+    {% if person.image %}
+        {% capture init %}{{ person.image | slice: 0,2 }}{% endcapture %}
+        {% if init == "//" %}
+            {% assign imgurl = person.image %}
+        {% else %}
+            {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
+        {% endif %}
+    {% endif %}
+    <a href="{{ site.url }}/people#{{item[0]}}">
+    {% if imgurl %}
+        <img class="img-circle profile" src="{{imgurl}}" />
+    {% else %}
+        <svg class="profile"><circle class="noprofile" /></svg>
+    {% endif %}
+    </a>
+
     <div id = "{{item[0]}}">
       <dt class="person">
         {% if person.webpage %}
