@@ -16,10 +16,12 @@ permalink: /blog/:year/:month/:day/:title.html
 
 # Sections on the "people" page.
 roles:
+    - {key: director, name: Director}
     - {key: fulltime, name: Full-time Research Assistants}
     - {key: ugra, name: Undergraduate Research Assistants}
     - {key: ugpa, name: Undergraduate Project Assistants}
     - {key: alum, name: Alumni}
+
     # - {key: ugrad, name: Undergraduate Students}
     # - {key: ugrad-alum, name: Past Undergraduate Students}
     # - {key: collab, name: Collaborators}

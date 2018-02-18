@@ -1,6 +1,11 @@
 # Fulltime
 # Alphabetical order
 
+vineethv:
+    display_name: "Vineeth Vijayaraghavan"
+    role: director
+    image: /img/people/Vineeth-Vijayaraghavan.png
+
 ateendra:
     display_name: "Ateendra Ramesh"
     webpage: "https://ateexd.github.io"
