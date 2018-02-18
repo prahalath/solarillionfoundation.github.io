@@ -47,7 +47,7 @@ navigation:
     - title: Code
       link: /code.html
     - title: People
-      link: /people.html
+      link: /people/
 
 # Navigation bar links for WACAS.
 nav_wacas:
@@ -58,7 +58,7 @@ nav_wacas:
 
 # Rewriting of old path names.
 wiki_redirects:
-    People: people.html
+    People: people/
     Projects: research/
     Publications: publications.html
     EnerJ: research/approximation/enerj.html

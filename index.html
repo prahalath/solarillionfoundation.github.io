@@ -84,7 +84,7 @@ role_remain:
 </div>
 
 <h2>People</h2>
-
+<h2>{{site.url }}</h2>
 <div class="row">
 {% for grp in page.role_groups %}
     <!-- <h3>{{ grp }}</h3><br/> -->
@@ -98,7 +98,8 @@ role_remain:
                 {% assign person = item[1] %}
                 {% if person.role == role.key %}
                 <li>
-                    {% if person.webpage %}<a href="{{ site.url }}/people.html/#{{item[0]}}">{% endif %}
+
+                    {% if person.webpage %}<a href"/people#{{item[0]}}">{% endif %}
                     {% assign imgurl = false %}
                     {% if person.image %}
                         {% capture init %}{{ person.image | slice: 0,2 }}{% endcapture %}
@@ -116,7 +117,7 @@ role_remain:
                     {% endif %}
                     {% if person.webpage %}</a>{% endif %}
                     <div class="person">
-                    {% if person.webpage %}<a href="{{ site.url }}/people#{{item[0]}}">{% endif %}
+                    {% if person.webpage %}<a href="/people#{{item[0]}}">{% endif %}
                     <h4>{{person.display_name}}</h4>
                     {% if person.webpage %}</a>{% endif %}
                     <!-- {% if person.bio %}<p align="justify" class="bio">{{person.bio}}</p>{% endif %} -->
