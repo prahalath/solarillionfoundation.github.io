@@ -72,7 +72,7 @@ ajay:
     display_name: "Ajay Kannan"
     role: ugra
     image: /img/people/ajay.png
-    bio: "Mr. Awesome"
+    bio: "Ajay is a 4th Year Bachelor of Computer Science and Engineering student studying at College of Engineering, Guindy (Anna University, Guindy Campus). He has co-authored 2 publications on gesture recognition using accelerometer sensors as a part of IoT & Embedded System group at Solarillion Foundation. His areas of interest are IoT, Machine Learning and Algorithms. He plans to do his Masters in the fall of 19′."
 
 lakshmi:
     display_name: "Lakshminarishman Srinivasan"
@@ -84,7 +84,7 @@ syed:
     display_name: "Syed Shahbaaz Ahmed"
     role: ugra
     image: /img/people/syed.png
-    bio: "Mr. Awesome"
+    bio: "Shahbaaz is a Final year undergraduate student pursuing his Bachelors in Electrical and Electronics Engineering at Rajalakshmi Engineering College, Anna University. He is a member of the smart devices group and has co-authored two papers in the field of Non-Intrusive Load Monitoring. His latest work, titled “Current Peak based Device Classification for NILM on a Low-Cost Embedded Platform using Extra-Trees” was presented at MIT URTC conference in 2017 at Boston, USA. Working further in applied Machine Learning for electrical problems, his current work involves day-ahead hourly load prediction for New York City. His areas of interest include Embedded Systems, IoT, reconfigurable computing and Machine Learning. He intends to pursue his Masters in U.S.A in the fall of 2019."
 
 adithya:
     display_name: "Adithya Ganesan V"
@@ -97,7 +97,7 @@ raghav:
     display_name: "Raghavendiran Thiruvengadam"
     role: ugra
     image: /img/people/raghav.png
-    bio: "Mr. Awesome"
+    bio: "Raghav is a final year undergraduate student pursuing his Bachelors in Electrical and Electronics Engineering at Sri Venkateswara College of Engineering. His current work involves day-ahead hourly load prediction for New York City. His previous research work on Non-Intrusive Load Monitoring was presented at the Undergraduate Research Technology Conference, MIT, Cambridge. His areas of interest include IoT, and Machine Learning. He intends to pursue his Masters abroad in the fall of 2018."
 
 dinesh:
     display_name: "Dinesh Sreekanthan"
