@@ -3,7 +3,7 @@
 ---
 
 $light-gray: #e5e5e5;
-$dark-gray: rgb(43, 43, 43);
+$dark-gray: rgb(228, 220, 220); 
 
 $link-color: #428bca;
 $default-rule: 1px solid $light-gray;
@@ -22,6 +22,7 @@ body {
   padding-bottom: 20px;
   font-size: $base-font-size;
   font-weight: 400;
+  background-color: rgb(255, 255, 255);
 }
 
 a:hover {
@@ -238,6 +239,7 @@ ul.project-people {
 }
 .jumbotron p {
     font-size: 15px;
+    color: black
 }
 .jumbotron {
     padding-top: 18px;
