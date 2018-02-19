@@ -3,7 +3,7 @@
 ---
 
 $light-gray: #e5e5e5;
-$dark-gray: rgb(228, 220, 220); 
+$dark-gray: rgb(49, 49, 49); 
 
 $link-color: #428bca;
 $default-rule: 1px solid $light-gray;
@@ -217,7 +217,7 @@ ul.project-people {
 
     ul.grad { @include columns(3); }
     ul.alum { @include columns(2); }
-    ul.people_page {@include columns(2);}
+    ul.people_page {@include columns(2);}   
 }
 
 @media (max-width: 768px) {

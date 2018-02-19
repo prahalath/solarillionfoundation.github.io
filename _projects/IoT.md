@@ -5,7 +5,7 @@ description: The IoT and the Embedded Systems team from SF has built a number of
 people:
     - syed
     - raghav
-
+    - yogesh
 status: streams
 
 ---
