@@ -25,12 +25,12 @@ aashish:
     bio: "Aashish holds an undergraduate degree in Electrical and Electronics Engineering from Velammal Engineering College, Anna University. He is part of a Machine Learning group and currently working on Realtime Movies Occupancy Prediction. He recently presented his research work 'Peak based Device Classification for NILM on a Low-Cost Embedded Platform using Extra-Trees' at Massachusetts Institute of Technology URTC 2017, MA, USA. His areas of interest include IoT, Machine Learning, Algorithms and Embedded Systems. He aspires to do Masters abroad in his areas of interests in Fall 18 followed by a Ph.D."
 
 gautham:
-    display_name: "Gautham Krishna G"
+    display_name: "Gautham Krishna Gudur"
     webpage: "https://gauthamkrishna-g.github.io"
     role: fulltime
     github: aashish-jain
     image: /img/people/gautham.png
-    bio: "Gautham holds a Bachelor's degree in Information Technology from Sri Sivasubramaniya Nadar College of Engineering, Anna University, Chennai. He is currently a part of the Activity Recognition and Movie Occupancy Prediction research groups. His previous research work titled \"A Generic Multi-modal Dynamic Gesture Recognition System using Machine Learning\" has been accepted at the IEEE Future of Information and Commination Conference (FICC) 2018 to be held at Singapore. His current areas of interest include Data Science, Deep Learning, IoT and Algorithms. He intends to pursue his Master's in the fall of 2018."
+    bio: "Gautham holds a Bachelor's degree in Information Technology from Sri Sivasubramaniya Nadar College of Engineering, Anna University, Chennai. He is currently a part of the Activity Recognition and Movie Occupancy Prediction research groups. His previous research work titled \"A Generic Multi-modal Dynamic Gesture Recognition System using Machine Learning\" has been accepted at the IEEE Future of Information and Commination Conference (FICC) 2018 to be held at Singapore. His current areas of interest include Data Science, Deep Learning, IoT and Algorithms. He intends to pursue his Masters in the fall of 2018."
 
 prahalathan:
     display_name: "Prahalathan Sundaramoorthy"
@@ -161,7 +161,7 @@ abishek:
     bio: "I am a final year undergraduate student currently pursuing my Bachelor's in Electrical and Electronics Engineering at Easwari Engineering College, Anna University. I am a part of the smart energy group and my current research work deals with Microgrid Cluster for rural Indian scenario. My areas of interest include Embedded systems,Renewable Energy and Microgrids. I plan to do my masters by the fall of 2019.  "
 
 shashank:
-    display_name: "Shashank Karrthikeyaa Annadanam Subbarathinam"
+    display_name: "Shashank Karrthikeyaa A.S."
     role: ugra
     image: /img/people/shashank.png
     bio: "Shashank is currently pursuing his 3rd year bachelor’s in SSN College of Engineering. His areas of interest include Signal Processing, IOT and Machine Learning. He is a part of Load Prediction group. He plans to do his masters in the fall of 2019."
