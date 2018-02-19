@@ -2,11 +2,8 @@
 layout: default
 title: Machine Learning
 description: The ML group of Solarillion Foundation focuses on solving IoT, Data science and other data-driven problem statements in the research, industrial and real world scenarios.   
-<<<<<<< HEAD
-
-=======
+---
 # link: site
->>>>>>> 7fe615573b4aaea9fb7fa9c8983713523856abd2
 people:
  - ateendra
  - aashish
