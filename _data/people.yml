@@ -6,6 +6,7 @@ vineethv:
     role: director
     image: /img/people/Vineeth-Vijayaraghavan.png
     webpage: "/dir"
+    bio: 'Find more about out director <a href = /dir/>here</a>'
 
 ateendra:
     display_name: "Ateendra Ramesh"
