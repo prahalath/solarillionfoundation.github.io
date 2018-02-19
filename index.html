@@ -38,11 +38,11 @@ role_remain:
 </ul>
 
 
-<h2>Research Themes</h2>
+<h2>Research Streams</h2>
 
 <div class="card-columns">
 {% for p in site.projects %}
-{% if p.status != "inactive" %}
+{% if p.status == "streams" %}
 <div class="card {%if p.link or p.url%}link{%endif%}">
     {% if p.link %}
         {% assign proj_url = p.link %}
