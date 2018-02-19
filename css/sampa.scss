@@ -23,6 +23,8 @@ body {
   font-size: $base-font-size;
   font-weight: 400;
   background-color: rgb(255, 255, 255);
+  background-image: url("../img/Circuit2.jpg");
+  background-repeat: repeat-xy;
 }
 
 a:hover {
@@ -211,6 +213,7 @@ ul.project-people {
 @media (min-width: 768px) {
     .container {
         max-width: 900px;
+        background: white;
     }
   
     .card-columns { @include columns(3); }
