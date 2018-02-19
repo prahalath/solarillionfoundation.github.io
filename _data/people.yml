@@ -5,6 +5,7 @@ vineethv:
     display_name: "Vineeth Vijayaraghavan"
     role: director
     image: /img/people/Vineeth-Vijayaraghavan.png
+    webpage: "/dir"
 
 ateendra:
     display_name: "Ateendra Ramesh"
@@ -37,11 +38,6 @@ prahalathan:
     image: /img/people/prahalathan.png
     bio: "He holds a Bachelor’s degree in Electrical and Electronics Engineering from Anna University, Chennai. His research interests include Smart Devices, Machine Learning and Embedded Systems. His paper titled \"Current peak based device classification in NILM on a low-cost embedded platform using extra-trees\", on developing a low-cost system for Non-Intrusive Load Monitoring using machine learning was accepted and presented at the 2017 IEEE MIT Undergraduate Research Technology Conference (URTC), Cambridge MA, USA. Currently, he is working on developing a robust Human Activity Recognition (HAR) system using deep learning. He intends to pursue his Master's in the fall of 2018."
 
-sriharsha:
-    display_name: "Sriharsha Uppu"
-    role: fulltime
-    image: /img/people/sriharsha.png
-    bio: "Sriharsha has completed his undergraduate in Electronics and Communication Engineering from Rajalakshmi Engineering College, Anna University. His research interests include machine learning, embedded systems and IoT. He is currently part of the machine learning group at Solarillon foundation and is currently working on a food sale prediction model for a top 3 multiplex chain in the country. He plans on pursuing his Master's in Electrical and Computer Engineering in the fall of 2018"
 
 vijay:
     display_name: "Vijay Kumar Shankar"
@@ -55,6 +51,12 @@ yogesh:
     image: /img/people/yogesh.png
     bio: "Yogesh holds a bachelor’s degree in  Electronics and Communication  Engineering from Velammal Engineering College, Anna University. He is currently part of the embedded /IOT group working on gesture recognition. His previous research work in gesture recognition and machine learning  has been accepted at the IEEE FICC to be held at Singapore , 2018.  His research interests include Embedded Systems, IoT Devices, and machine learning.  He intends to pursue his Masters at the University of waterloo in fall 2018."
 
+sriharsha:
+    display_name: "Sriharsha Uppu"
+    role: fulltime
+    image: /img/people/sriharsha.png
+    bio: "Sriharsha has completed his undergraduate in Electronics and Communication Engineering from Rajalakshmi Engineering College, Anna University. His research interests include machine learning, embedded systems and IoT. He is currently part of the machine learning group at Solarillon foundation and is currently working on a food sale prediction model for a top 3 multiplex chain in the country. He plans on pursuing his Master's in Electrical and Computer Engineering in the fall of 2018"
+
 # Staff
 # Alphabetical order
 
@@ -65,17 +67,23 @@ yogesh:
 
 # Grads
 # Alphabetical order
-dinesh:
-    display_name: "Dinesh Sreekanthan"
+ajay:
+    display_name: "Ajay Kannan"
     role: ugra
-    image: /img/people/dinesh.png
-    bio: "Dinesh is a 4th year Undergraduate Student, pursuing Computer Science and Engineering at SRM University, Kattankulathur. His areas of research interests include Data Science, Machine Learning and Natural Language Processing. He presented his work on machine learning at the IEEE Digital Avionics Systems Conference 2017 at St. Petersburg, FL, USA. He intends to pursue his Master’s in Computer Science abroad in Fall 2018."
+    image: /img/people/ajay.png
+    bio: "Mr. Awesome"
+
+lakshmi:
+    display_name: "Lakshminarishman Srinivasan"
+    role: ugra
+    image: /img/people/lakshmi.png
+    bio: "Lakshminarasimhan is a 4th year undergraduate student pursuing Computer Science and Engineering at SRM University, Kattankulathur. His areas of research interests include machine learning and natural language processing. His current research work deals with Neural Machine Translation. His previous research work dealing with prediction of flight delays has been published at the IEEE/AIAA 36th Digital Avionics Systems Conference (DASC) 2017, held in St.Petersburg, Florida. He intends to pursue his Master’s abroad in Fall 2018."
 
 syed:
     display_name: "Syed Shahbaaz Ahmed"
     role: ugra
     image: /img/people/syed.png
-    bio: "Awesome"
+    bio: "Mr. Awesome"
 
 adithya:
     display_name: "Adithya Ganesan V"
@@ -83,24 +91,18 @@ adithya:
     image: /img/people/adithya.png
     bio: "Adithya Ganesan V is a 3rd year undergraduate student currently pursuing bachelor's in computer science and engineering in Sri Sivasubramaniya Nadar College Of Engineering, Anna University, Chennai. His previous work in Activity Recognition has been accepted for the Future of Information and Communication Conference to be held in Singapore in April 2018. He is currently a part of an ML team which is working in collaboration with one of the top multiplexes to predict the food sale and model user behaviour. His areas of interest include Machine Learning, Data Science, IoT and algorithms. He plans to do his masters commencing fall 2019."
 
-shashank:
-    display_name: "Shashank Karrthikeyaa Annadanam Subbarathinam"
-    role: ugra
-    image: /img/people/shashank.png
-    bio: "Shashank is currently pursuing his 3rd year bachelor’s in SSN College of Engineering. His areas of interest include Signal Processing, IOT and Machine Learning. He is a part of Load Prediction group. He plans to do his masters in the fall of 2019."
 
 raghav:
     display_name: "Raghavendiran Thiruvengadam"
     role: ugra
     image: /img/people/raghav.png
-    bio: "Awesome"
+    bio: "Mr. Awesome"
 
-
-aswin:
-    display_name: "Aswin Gopikanna"
+dinesh:
+    display_name: "Dinesh Sreekanthan"
     role: ugra
-    image: /img/people/aswin.png
-    bio: "Aswin Gopikanna is a 3rd-year undergraduate student pursuing his Bachelors in Electrical and Electronics Engineering at Rajalakshmi Engineering College. His areas of research include the development of low-cost solutions in the fields of renewable energy and microgrids. His current research work deals with microgrid clusters. His previous research work on rural Indian Microgrid has been published at the IEEE Texas Power and Energy Conference (TPEC) 2018, held at Texas A&M University, TX. He intends to pursue his Master’s in the fall of 2019."
+    image: /img/people/dinesh.png
+    bio: "Dinesh is a 4th year Undergraduate Student, pursuing Computer Science and Engineering at SRM University, Kattankulathur. His areas of research interests include Data Science, Machine Learning and Natural Language Processing. He presented his work on machine learning at the IEEE Digital Avionics Systems Conference 2017 at St. Petersburg, FL, USA. He intends to pursue his Master’s in Computer Science abroad in Fall 2018."
 
 sai:
     display_name: "Sai Shankar M"
@@ -108,13 +110,24 @@ sai:
     image: /img/people/sai.png
     bio: "Sai Shankar is a final year undergraduate student pursuing is bachelor’s degree in Electrical and Electronics Engineering at Rajalakshmi Engineering College. His areas of interest include Renewable energy and Micro-grids. He is currently a part of the Smart Energy group working on designing low cost and optimized micro-grids. He has recently published a paper on micro-grids at the IEEE Texas Power and Energy Conference 2018 held at Texas A&M university, Texas. He intends to pursue his Masters abroad in Electrical engineering in the fall of 2019."
 
-
-lakshmi:
-    display_name: "Lakshminarishman Srinivasan"
+aswin:
+    display_name: "Aswin Gopikanna"
     role: ugra
-    image: /img/people/lakshmi.png
-    bio: "Lakshminarasimhan is a 4th year undergraduate student pursuing Computer Science and Engineering at SRM University, Kattankulathur. His areas of research interests include machine learning and natural language processing. His current research work deals with Neural Machine Translation. His previous research work dealing with prediction of flight delays has been published at the IEEE/AIAA 36th Digital Avionics Systems Conference (DASC) 2017, held in St.Petersburg, Florida. He intends to pursue his Master’s ab
-road in Fall 2018."
+    image: /img/people/aswin.png
+    bio: "Aswin Gopikanna is a 3rd-year undergraduate student pursuing his Bachelors in Electrical and Electronics Engineering at Rajalakshmi Engineering College. His areas of research include the development of low-cost solutions in the fields of renewable energy and microgrids. His current research work deals with microgrid clusters. His previous research work on rural Indian Microgrid has been published at the IEEE Texas Power and Energy Conference (TPEC) 2018, held at Texas A&M University, TX. He intends to pursue his Master’s in the fall of 2019."
+
+sharan:
+    display_name: "Sharan Sundar"
+    role: ugra
+    image: /img/people/sharan.png
+    bio: "Sharan is a 3rd Year Bachelor of Computer Science and Engineering student studying at SSN College of Engineering. He is a part of Machine Learning group at Sollarillion Foundation currently working on Occupancy Prediction. His areas include IoT, Machine Learning and Algorithms. He plans to do his Masters in the fall of 19."
+
+manav:
+    display_name: "Manav Rajiv Moorthy"
+    role: ugra
+    image: /img/people/manav.png
+    bio: "Manav is a 3rd Year Undergraduate Student pursuing Computer Science and Engineering at Sri Sivasubramaniya Nadar College of Engineering, Anna University, Chennai. His areas of research include Deep Learning and Computer Vision. He is a part of IoT & DL research group at Sollarillion Foundation. He plans to do his masters by the fall of 2019."
+
 
 sundar:
     display_name: "Sundararaman Venkataramani"
@@ -146,18 +159,12 @@ abishek:
     image: /img/people/abishek.png
     bio: "I am a final year undergraduate student currently pursuing my Bachelor's in Electrical and Electronics Engineering at Easwari Engineering College, Anna University. I am a part of the smart energy group and my current research work deals with Microgrid Cluster for rural Indian scenario. My areas of interest include Embedded systems,Renewable Energy and Microgrids. I plan to do my masters by the fall of 2019.  "
 
-sharan:
-    display_name: "Sharan Sundar"
+shashank:
+    display_name: "Shashank Karrthikeyaa Annadanam Subbarathinam"
     role: ugra
-    image: /img/people/sharan.png
-    bio: "Sharan is a 3rd Year Bachelor of Computer Science and Engineering student studying at SSN College of Engineering. He is a part of Machine Learning group at Sollarillion Foundation currently working on Occupancy Prediction. His areas include IoT, Machine Learning and Algorithms. He plans to do his Masters in the fall of 19."
+    image: /img/people/shashank.png
+    bio: "Shashank is currently pursuing his 3rd year bachelor’s in SSN College of Engineering. His areas of interest include Signal Processing, IOT and Machine Learning. He is a part of Load Prediction group. He plans to do his masters in the fall of 2019."
 
-manav:
-    display_name: "Manav Rajiv Moorthy"
-    role: ugra
-    image: /img/people/manav.png
-    bio: "Manav is a 3rd Year Undergraduate Student pursuing Computer Science and Engineering at Sri Sivasubramaniya Nadar College of Engineering, Anna University, Chennai. His areas of research include Deep Learning and Computer Vision. He is a part of IoT & DL research group at Sollarillion Foundation. He plans to do his masters by the fall of 2019."
-    
 
 # UGPA 
 gokul:
@@ -183,119 +190,141 @@ aswinnatesh:
     display_name: "Aswin Natesh"
     role: alum
     image: /img/people/aswinnatesh.png
-
+    webpage: https://www.linkedin.com/in/aswinnatesh
 
 gandhi:
     display_name: "Gandhi Rajan"
     role: alum
     image: /img/people/gandhi.png
-
+    webpage: https://www.linkedin.com/in/gandhi-rajan
 
 gosakan:
     display_name: "Gosakan Srinivasan"
     role: alum
     image: /img/people/gosakan.png
-
+    webpage: https://www.linkedin.com/in/gosakan-srinivasan-7729959a
+    
 meghana:
     display_name: "Meghana"
     role: alum
     image: /img/people/meghana.png
+    webpage: https://www.linkedin.com/in/meghanak
 
 balasubramanian:
     display_name: "Balasubramanian T"
     role: alum
     image: /img/people/bala.png
-
+    webpage: https://www.linkedin.com/in/bala95/
+    
 rohan:
-    display_name: "Rohan Ganpati"
+    display_name: "Rohan P. Ganpati"
     role: alum
     image: /img/people/rohan.png
+    webpage: https://www.linkedin.com/in/rohan-ganpati
 
 sivaroophini:
-    display_name: "Sivaroophini"
+    display_name: "Sivaroophini Gnanavel"
     role: alum
     image: /img/people/sivaroophini.png
+    webpage: https://www.linkedin.com/in/sivaroophini-gnanavel-b81005139
 
 vetrivel:
-    display_name: "Vetrivel"
+    display_name: "Vetrivel Rajkumar"
     role: alum
     image: /img/people/vetri.png
-
+    webpage: https://www.linkedin.com/in/vetrivel-subramaniam-rajkumar-9b9579151
 
 harini:
     display_name: "Harini Sekhar"
     role: alum
     image: /img/people/harini.png
+    webpage: https://www.linkedin.com/in/harini-sekar
 
 rajasekhar:
     display_name: "Rajasekhar Rajagopalan"
     role: alum
     image: /img/people/rajasekhar.png
+    webpage: https://www.linkedin.com/in/rrshekar/
 
 chandirasekarendiran:
     display_name: "Chandirasekarendiran Anandan"
     role: alum
     image: /img/people/chandirasekarendiran.png
+    webpage: https://www.linkedin.com/in/canandan
 
 farhan:
     display_name: "Farhan Faisal"
     role: alum
     image: /img/people/farhan.png
+    webpage: https://www.linkedin.com/in/farhan94
+
 
 priyanka:
     display_name: "Priyanka Suresh"
     role: alum
     image: /img/people/priyanka.png
+    webpage: https://www.linkedin.com/in/priyankasuresh/
+
 
 rishikanth:
     display_name: "Rishikanth Chandrasekaran"
     role: alum
     image: /img/people/rishikanth.png
+    webpage: https://www.linkedin.com/in/rishikanthc
 
 anand:
     display_name: "Anand Vignesh"
     role: alum
     image: /img/people/anand.png
+    webpage: https://www.linkedin.com/in/anandvignesh/
 
 akshaya:
     display_name: "Akshaya Ravishankar"
     role: alum
     image: /img/people/akshaya.png
+    webpage: https://www.linkedin.com/in/akshayaravishankar
 
 arjun:
     display_name: "Arjun Subramanian Ganesan"
     role: alum
     image: /img/people/arjun.png
+    webpage: https://www.linkedin.com/in/arjungan
 
 bhargavi:
     display_name: "Bhargavi Govindarajan"
     role: alum
     image: /img/people/bhargavi.png
+    webpage: https://www.linkedin.com/in/bhargavigovindarajan
 
 rajesh:
     display_name: "Rajesh Ramesh"
     role: alum
     image: /img/people/rajesh.png
+    webpage: https://www.linkedin.com/in/rajeshramesh90/
 
 vikram:
     display_name: "Vikram Vel"
     role: alum
     image: /img/people/vikram.png
+    webpage: https://www.linkedin.com/in/vikramvel
 
 dhiwaakar:
     display_name: "Dhiwaakar Purusothaman S R R"
     role: alum
     image: /img/people/dhiwaakar.png
+    linkedin: https://www.linkedin.com/in/dhiwaakar/
 
 karan:
     display_name: "Karan K Bajaj"
     role: alum
     image: /img/people/karan.png
+    webpage: https://www.linkedin.com/in/karankishorebajaj
 
 sabari:
     display_name: "Sabari Girish Vijayakumar"
     role: alum
     image: /img/people/sabari.png
+    webpage: 
 
 
 

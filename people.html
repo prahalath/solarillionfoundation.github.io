@@ -3,13 +3,14 @@ layout: default
 permalink: /people/
 title: People
 role_groups:
-    - [fulltime, ugra, ugpa, alum ]
+    - [fulltime, ugra, ugpa, alum, director ]
 ---
 
 <!-- <div class="inset-image">
     <img src="{{ site.base }}/img/sampayak.jpg" alt="Sampa-yak"
     class="img-responsive img-rounded">
 </div> -->
+
 <div class="row">
     {% for grp in page.role_groups %}
         <!-- <h3>{{ grp }}</h3><br/> -->
@@ -43,7 +44,11 @@ role_groups:
                         {% endif %}
                         </a>
                         <div class="person">
+                        {% if person.webpage %}
+                        <h4><a href="{{person.webpage}}">{{person.display_name}}</a></h4>
+                        {% else %}
                         <h4>{{person.display_name}}</h4>
+                        {% endif %}
                         </a>
                         {% if person.bio %}<p align="justify" class="bio">{{person.bio}}</p>{% endif %}
                         </div>
