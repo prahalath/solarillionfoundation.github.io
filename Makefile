@@ -1,4 +1,4 @@
-PYTHON=python2.7
+PYTHON=python
 
 # targets that aren't filenames
 .PHONY: all clean deploy
@@ -12,7 +12,7 @@ _site/index.html _site/wacas14/index.html:
 _includes/pubs.html: bib/sampa-pubs.bib bib/publications.tmpl
 	git submodule init; git submodule update
 	mkdir -p _includes
-	$(PYTHON) bibble/bibble.py $+ > $@
+	bibble $+ > $@
 
 _site/index.html: $(wildcard *.html) _includes/pubs.html _config.yml \
 	_layouts/default.html

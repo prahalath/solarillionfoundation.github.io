@@ -11,8 +11,8 @@ role_remain:
 ---
 
 <div class="jumbotron">
-      <h4><center><b>Solarillion Foundation</b></center></h4>
-      <p align="justify">Solarillion Foundation is a not-for-profit research, outreach and 
+      <!-- <h4><center><b>Solarillion Foundation</b></center></h4> -->
+      <p align="justify"><b>Solarillion Foundation</b> is a not-for-profit research, outreach and 
       education organization working with research institutions, government agencies and organizations 
       to carry out research on policy, technology and related areas in the field of Machine Learning, 
       Internet of Things, Embedded Systems, renewable energy, and sustainable engineering.
@@ -80,9 +80,11 @@ role_remain:
 {% endfor %}
 </div>
 
-<h2>People</h2>
-<!-- <h2>{{site.url }}</h2> -->
-
+<div class="row">
+    <h2>People</h2>
+</div>
+    <!-- <h2>{{site.url }}</h2> -->
+<div class="row">
     <div class="col-md-16">
             <h3>Director - Research and Outreach </h3>
             <ul class="people faculty">
@@ -102,6 +104,7 @@ role_remain:
                         </li>
         
     </div>
+</div>
 <div class="row">
 {% for grp in page.role_groups %}
     <!-- <h3>{{ grp }}</h3><br/> -->
