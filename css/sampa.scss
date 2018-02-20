@@ -22,9 +22,24 @@ body {
   padding-bottom: 20px;
   font-size: $base-font-size;
   font-weight: 400;
-  background-image: url("../img/Circuit2.jpg");
-  background-repeat: repeat-xy;
+//   background-image: url("../img/Circuit2.jpg");
+//   background-repeat: repeat-xy;
 }
+
+//Background image for Desktops only
+@media (min-width: 1200px) {
+
+    body {  
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: $base-font-size;
+        font-weight: 400;
+        background-image: url("../img/Circuit2.jpg");
+        background-repeat: repeat-xy;
+        }
+    
+    }
+
 
 a:hover {
     text-decoration: none; // don't underline links on hover
