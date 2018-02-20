@@ -10,9 +10,9 @@ projects:
     summary: Determinism is inevitable.
 ---
 
-Our research crosses multiple layers of the system stack, from hardware to programming languages and applications. Our research has four main themes. The *concurrency* theme addresses challenges in writing, testing and debugging concurrent programs. The *approximate computing* theme explores accuracy trade-offs across the system stack for better energy efficiency and performance. The *emerging applications* theme focuses on building systems to better support new applications, from  mobile apps to graph analytics. The *emerging technologies* theme aims at taking advantage of new storage and compute technologies in building new systems. 
+Research is the key area of focus at the Solarillion Foundation. Students guided by mentors would be pursuing research in their areas of interest. These would lead to projects, publication of research papers and presentations at international conferences.
 
-### Active Projects
+### Research Streams
 
 <div class="card-columns">
 {% for p in site.projects %}
