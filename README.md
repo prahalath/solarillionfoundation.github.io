@@ -1,9 +1,5 @@
-Sampa group website
+Solarillion Foundation website
 ===================
-
-This is the [Sampa group website](http://sampa.cs.washington.edu), built with [Jekyll][] and [bibble][].
-
-It's based on our [research group website template](https://github.com/uwsampa/research-group-web), which you can use to build your own nice group website! 🎣
 
 Editing
 -------
