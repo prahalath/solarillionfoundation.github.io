@@ -54,7 +54,7 @@ Research is the key area of focus at the Solarillion Foundation. Students guided
 {% endfor %}
 </div>
 
-### Completed Projects
+# Find our publications <a href = "/publications.html">here</a>.
 
 <div class="card-columns">
 {% for p in site.projects %}
@@ -98,7 +98,6 @@ Research is the key area of focus at the Solarillion Foundation. Students guided
 
 
 
-{% include footer.html %}
 
 <!--### Concurrency
 
