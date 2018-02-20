@@ -16,9 +16,10 @@
           <div class="header">
             <a href="{{ site.base }}/">
                 <img src="{{ site.base }}/img/solarillionfoundation.png"
-                    srcset="{{ site.base }}/img/solarillionfoundation@2x.png 2x"
                     alt="Solarillion Foundation" id="logo">
             </a>
+            <!-- srcset="{{ site.base }}/img/solarillionfoundation@2x.png 2x" -->
+
             <ul class="nav nav-pills pull-right">
                   {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
                   {% for item in site.navigation %}
