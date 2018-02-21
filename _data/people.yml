@@ -166,6 +166,21 @@ shashank:
     image: /img/people/shashank.png
     bio: "Shashank is currently pursuing his 3rd year bachelor’s in SSN College of Engineering. His areas of interest include Signal Processing, IOT and Machine Learning. He is a part of Load Prediction group. He plans to do his masters in the fall of 2019."
 
+aparo:
+    display_name: "Aparokshith Rao"
+    role: ugra
+    image: /img/people/aparo.png
+
+adithyasharma:
+    display_name: "Adithya Sharma"
+    role: ugra
+    image: /img/people/adithyasharma.png
+
+nathan:
+    display_name: "Karthik Nathan"
+    role: ugra
+    
+
 
 # UGPA 
 gokul:
